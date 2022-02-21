@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/main.css">
+
+    <!--responsividade-->
+    <link rel="stylesheet" href="style/responsive.css">
+
+    <title>GAMEFLIX</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="index.html" h2 class="logo">GAMEFLIX</a>
+            <nav>
+                <a href="index.html">Inicio</a>
+                <a href="#">Ação</a>
+                <a href="#">RPG</a>
+                <a href="#">Esportes</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="jogo-farc6">
+            <div class="container">
+                <h3 class="titulo">Far Cry 6</h3>
+                <p class="descricao">Jogando como Dani Rojas, você vai embarcar na jornada de um ex-militar
+                     que se tornou um revolucionário da guerrilha. Para equilibrar a luta contra os militares 
+                     de Antón, você terá que adotar a filosofia Resolver e usar um arsenal de novas e surpreendentes 
+                     armas, veículos e animais para começar um movimento revolucionário que vai acabar com o regime tirânico</p>
+                <div class="botoes">
+                    <button role="button" class="botao"> <!-- o "role" deve ser utilizado quando criamos um botão no html, facilita para o navegador-->
+                        <i class="fa-solid fa-circle-play"></i>
+                            Jogar
+                    </button>
+                    <button role="button" class="botao">
+                        <i class="fa-solid fa-download"></i>
+                            Baixar
+                    </button>
+                    <button role="button" class="botao" onclick="window.open('https://youtu.be/Jp5Y-a_oiPM')">
+                        <i class="fa-brands fa-youtube"></i>
+                            Gameplay
+                    </button>
+                </div>
+            </div>
+        </div>    
+    </main>
+
+    <script src="https://kit.fontawesome.com/89877134c9.js" crossorigin="anonymous"></script> <!-- site para pegar os icones: https://fontawesome.com/-->
+    <script src="js/owl/main.js"></script>
+
+</body>
+</html>

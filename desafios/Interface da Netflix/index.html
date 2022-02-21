@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/main.css">
+
+<!--responsividade-->
+    <link rel="stylesheet" href="style/responsive.css">
+
+    <!--owl css-->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+
+    <title>GAMEFLIX</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="index.html" h2 class="logo">GAMEFLIX</a>
+            <nav>
+                <a href="index.html">Inicio</a>
+                <a href="#">Ação</a>
+                <a href="#">RPG</a>
+                <a href="#">Esportes</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="jogo-principal">
+            <div class="container">
+                <h3 class="titulo">THE WITCHER 3: Wild Hunt</h3>
+                <p class="descricao">Enquanto a guerra continua nos Reinos do Norte, você assume o 
+                    maior contrato de sua vida — rastrear a Criança da Profecia, uma arma viva que pode alterar o mundo.</p>
+                <div class="botoes">
+                    <button role="button" class="botao"> <!-- o "role" deve ser utilizado quando criamos um botão no html, facilita para o navegador-->
+                        <i class="fa-solid fa-circle-play"></i>
+                        Jogar
+                    </button>
+                    <button role="button" class="botao">
+                        <i class="fa-solid fa-download"></i>
+                        Baixar
+                    </button>
+                    <button role="button" class="botao" onclick="window.open('https://youtu.be/YdHc3JZixRY');">
+                        <i class="fa-brands fa-youtube"></i>
+                        Gameplay
+                    </button>
+                </div>    
+            </div>
+        </div>
+    </main>
+
+    <div class="carrocel-jogos">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <a href="pag_codV.html" target="_self">
+                    <img class="box-jogos" src="img/1-call of duty vanguard.jpg" alt=""> 
+                </a> 
+            </div>
+            <div class="item">
+                <a href="pag_farc6.html" target="_self">
+                    <img class="box-jogos" src="img/2-Far_Cry_6_capa.jpg" alt="">
+                </a>  
+            </div>
+            <div class="item">
+                <img class="box-jogos" src="img/3-fifa-2022.jpg" alt="">  
+            </div>
+            <div class="item">
+                <img class="box-jogos" src="img/4-Ghost_of_Tsushima_capa.png" alt="">  
+            </div>
+            <div class="item">
+                <a href="pag_GOW.html" target="_self">
+                    <img class="box-jogos" src="img/5-God of war.jpg" alt="God of war" title="God of war">
+                </a> 
+            </div>
+            <div class="item">
+                <a href="pag_gta.html" target="_self">
+                    <img class="box-jogos" src="img/6-Grand_Theft_Auto_V_capa.png" alt="">
+                </a>    
+            </div>
+            <div class="item">
+                <a href="pag_sek.html" target="_self">
+                    <img class="box-jogos" src="img/7-Sekiro.png" alt="">
+                </a>  
+            </div>
+            <div class="item">
+                <img class="box-jogos" src="img/8-Spider-Man.png" alt="">  
+            </div>
+            <div class="item">
+                <img class="box-jogos" src="img/9-Tomb Raider.jpg" alt="">  
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://kit.fontawesome.com/89877134c9.js" crossorigin="anonymous"></script> <!-- site para pegar os icones: https://fontawesome.com/-->
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/main.js"></script>
+</body>
+</html>

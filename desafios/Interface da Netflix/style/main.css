@@ -1,0 +1,279 @@
+:root{
+    --vermelho:#E50914;
+    --preta:#141414;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Elementos Principais*/
+
+body {
+    background-color: var(--preta);
+    font-family: 'arial', Times, serif;
+    color: white;
+
+}
+
+
+
+header .container{
+    display: flex;
+    flex-direction: row; /* alinha os objetos de forma vertical */
+    align-items: center;
+    justify-content: space-between; /* alinha os objetos de forma horizontal */
+}
+
+header .logo{
+    color: var(--vermelho);
+    font-family: 'arial black',times;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #aaa;
+    margin-right: 10px;
+
+}
+
+header nav a:hover{
+    color: #fff;
+}
+
+/*jogo Principal*/
+
+.jogo-principal{
+    font-size: 16px;
+    background:linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%),
+    url('/img/TW-principal.jpg');
+    
+
+    height: 500px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.jogo-principal .descricao{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    font-size: 18px;
+}
+
+.jogo-principal .titulo{
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    font-size: 50px;
+}
+
+.botao{
+    background-color: rgba(0, 0, 0, .50);
+    border: none;
+    color: white;
+
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+
+    cursor: pointer;
+    transition: .3s ease all; /*para fazer a transição de cores utilizar5 junto com o"hover"*/
+}
+
+.botao:hover{
+    background-color: white;
+    color: black;
+
+}
+.botao i{
+    margin-right: 8px;
+    width: 15px;
+    height: 8px;
+}
+
+.container{
+    margin-left: 20px;
+}
+
+.jogo-principal .container{
+    width: 70%;
+
+}
+
+.box-jogos{
+    height: 400px;
+    width: 300px;
+    display: block;
+}
+
+.carrocel-jogos{
+    margin-top: 5px;
+}
+
+/*jogo God of War*/
+
+.jogo-gow{
+    font-size: 16px;
+    background:linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%),
+    url('/img/gow-1.jpg');
+    
+
+    height: 700px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-bottom: 200px;
+}
+
+.jogo-gow .descricao{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    font-size: 18px;
+}
+
+.jogo-gow .titulo{
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    padding-bottom: 10px;
+    font-size: 50px;
+}
+
+/*jogo GTA V*/
+
+.jogo-gta_v{
+    font-size: 16px;
+    background:linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%),
+    url('/img/gtav1.jpg');
+    
+
+    height: 700px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-bottom: 200px;
+}
+
+.jogo-gta_v .descricao{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    font-size: 18px;
+}
+
+.jogo-gta_v .titulo{
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    padding-bottom: 10px;
+    font-size: 50px;
+}
+
+/*jogo sekiro*/
+
+.jogo-sek{
+    font-size: 16px;
+    background:linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%),
+    url('/img/sekiro1.jpg');
+    
+
+    height: 700px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-bottom: 200px;
+}
+
+.jogo-sek .descricao{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    font-size: 18px;
+}
+
+.jogo-sek .titulo{
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    padding-bottom: 10px;
+    font-size: 50px;
+}
+
+/*jogo Far Cray 6*/
+
+.jogo-farc6{
+    font-size: 16px;
+    background:linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%),
+    url('/img/farcray6.jpg');
+    
+
+    height: 700px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-bottom: 200px;
+}
+
+.jogo-farc6 .descricao{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    font-size: 18px;
+}
+
+.jogo-farc6 .titulo{
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    padding-bottom: 10px;
+    font-size: 50px;
+}
+
+/*jogo Cod-Vanguard*/
+
+.jogo-cod-v{
+    font-size: 16px;
+    background:linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%),
+    url('/img/cod-v.jpg');
+    
+
+    height: 700px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-bottom: 200px;
+}
+
+.jogo-cod-v .descricao{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    font-size: 18px;
+}
+
+.jogo-cod-v .titulo{
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    padding-bottom: 10px;
+    font-size: 50px;
+}
